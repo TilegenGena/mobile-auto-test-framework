@@ -1,0 +1,17 @@
+# Mobile Automation Framework
+
+This repository demonstrates how a mobile automation framework
+can be built step by step with clean architecture and Git history.
+
+Each Pull Request introduces a single responsibility or feature.
+
+## Tech stack (will be added incrementally)
+- Java
+- Maven
+- Appium
+- TestNG
+- Allure
+
+## Purpose
+Educational project to showcase framework design,
+not just automated tests.
