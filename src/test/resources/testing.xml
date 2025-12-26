@@ -1,0 +1,7 @@
+<suite name="Mobile Test Suite">
+    <test name="Smoke Tests">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+</suite>
