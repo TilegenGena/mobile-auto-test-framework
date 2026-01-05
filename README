@@ -3,8 +3,6 @@
 This repository demonstrates how a mobile automation framework
 can be built step by step with clean architecture and Git history.
 
-Each Pull Request introduces a single responsibility or feature.
-
 ## Tech stack (will be added incrementally)
 - Java
 - Maven
@@ -15,3 +13,28 @@ Each Pull Request introduces a single responsibility or feature.
 ## Purpose
 Educational project to showcase framework design,
 not just automated tests.
+
+## How to run tests locally
+
+### 1. Start Appium Server
+
+    appium
+# or if installed via npm
+    npx appium
+
+### 2. Confirm that an emulator or device is running
+
+    adb devices
+
+#### 2.1 If the emulator is not running
+
+    adb kill-server
+    adb start-server
+
+### 3. Ensure you have correct values in `local.properties`:
+
+    appiumServerUrl, deviceName, appPath, username, password
+
+### 4. Run tests
+
+    mvn test
