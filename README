@@ -38,3 +38,7 @@ not just automated tests.
 ### 4. Run tests
 
     mvn test
+
+### Generate Allure report run: 
+
+    allure serve allure-results

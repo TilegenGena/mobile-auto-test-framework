@@ -29,4 +29,8 @@ public class LoginPage extends BasePage {
     public boolean isProductsTitleDisplayed() {
         return isDisplayed(productsTitle);
     }
+
+    public boolean isErrorMessageDisplayed() {
+        return isDisplayed(errorText);
+    }
 }
